@@ -26,7 +26,7 @@ for i in range(len(c)):
 key = ''
 
 # Cifra
-cypher = ''
+cipher = ''
 
 # Loop
 for i in range(len(c)):
@@ -34,8 +34,8 @@ for i in range(len(c)):
     key += str(int(k[i]))
 
     # Adiciona na cifra
-    cypher += str(int(c[i]))
+    cipher += str(int(c[i]))
 
 # Escreve na tela o resultado e a chave
-print("Cifra: {}".format(cypher))
+print("Cifra: {}".format(cipher))
 print("Chave única: {}".format(key))
